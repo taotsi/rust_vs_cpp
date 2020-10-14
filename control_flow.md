@@ -84,6 +84,8 @@ C++的range-based for loop所迭代的对象需要实现一个迭代器类型，
 
 当然，从C++20开始，你也可以用range library的那种迭代方式。
 
+> C++的`for`有三个版本，最先是C风格那种，后来C++11出了range-based for loop，最近C++20又出了一个Ranges库。
+
 TODO:迭代器
 
 

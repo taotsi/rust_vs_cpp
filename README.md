@@ -25,3 +25,7 @@
 [测试](tests.md)
 
 [IO](io.md)
+
+[所有权](ownership.md) 这是Rust中比较独特的概念
+
+[标准库](std.md)

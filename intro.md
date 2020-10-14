@@ -53,3 +53,8 @@ C++有而Rust没有的东西：
 - 都没有自动垃圾回收。通常都依赖destructor，这一概念实际上是Bjarne提出的
 - 都可能写出runtime不安全的代码。Rust有很强的静态分析，让你在编译器就避免很多错误。但是你还是可以命令编译器跳过那些检查，最终写出可能不安全的代码。另外，即使Rust编译器运行了所有的检查，你的代码还是有可能在执行期出问题。
 - 都有类型推断
+
+一些参考：
+[cpp vs rust cheatsheet](https://maulingmonkey.com/guide/cpp-vs-rust/)
+[the rust book](https://doc.rust-lang.org/book/)
+[C++ core guidlines](https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines)

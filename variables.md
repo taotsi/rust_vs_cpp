@@ -14,7 +14,12 @@ let x_rs = 10;
 const auto x_cc = 10;
 ```
 
-但是**二者不完全一样**。TODO:Rust的右值默认会被move，而C++则是复制。
+但是**二者不完全一样**。TODO:Rust的右值默认会被move，而C++则是复制。进一步将，当一个变量被传入一个函数，它的所有权会被移入这个函数：
+
+```rust
+let s = String::from("hello");
+println!("{}", s);
+```
 
 mutable变量需要显式声明:
 
